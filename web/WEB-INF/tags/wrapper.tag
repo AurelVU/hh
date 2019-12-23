@@ -27,9 +27,9 @@
                 <li class="nav-item">
                     <a class="nav-link ${users}" href="/users">Работники</a>
                 </li>
-                <li class="nav-item">
+                <!--<li class="nav-item">
                     <a class="nav-link ${employment}" href="/employment">Трудоустройства</a>
-                </li>
+                </li>-->
             </ul>
         </div>
         <%

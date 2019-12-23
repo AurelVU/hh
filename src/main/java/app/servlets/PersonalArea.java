@@ -69,7 +69,7 @@ public class PersonalArea extends HttpServlet {
             req.setAttribute("role", "employer");
             req.setAttribute("login", employer.getLogin());
             req.setAttribute("rating", employer.getRating());
-            req.setAttribute("aboutEmployee", employer.getAboutCompany());
+            req.setAttribute("aboutCompany", employer.getAboutCompany());
             req.setAttribute("lineActivity", employer.getLineActivity());
             RequestDispatcher requestDispatcher = req.getRequestDispatcher("views/personalareaemployer.jsp");
             requestDispatcher.forward(req, resp);

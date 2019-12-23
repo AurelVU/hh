@@ -42,9 +42,9 @@ public class JobOfferServices {
         return jobOfferDAO.readById(id);
     }
 
-    public List<JobOffer> getByParams(Long employerId, Date desiredStartTimeMax, Date desiredStartTimeMin,
-                                      Date desiredFinishTimeMax, Date desiredFinishTimeMin, BigDecimal desiredWageMax,
-                                      BigDecimal desiredWageMin, Date placementDateMax, Date placementDateMin) {
+    public List<JobOffer> getByParams(Long employerId, Date desiredStartTimeMin, Date desiredStartTimeMax,
+                                      Date desiredFinishTimeMin, Date desiredFinishTimeMax, BigDecimal desiredWageMin,
+                                      BigDecimal desiredWageMax, Date placementDateMin, Date placementDateMax) {
         HashMap<String, Object> equilMap = new HashMap<>();
         HashMap<String, Object> minMap = new HashMap<>();
         HashMap<String, Object> maxMap = new HashMap<>();
