@@ -28,7 +28,7 @@ public class JobApplicationServlet extends HttpServlet {
                     u.getUserId() + "</td><td>" +
                     u.getDesiredStartTime() + "</td><td>" +
                     u.getDesiredFinishTime() + "</td><td>" +
-                    u.getDesiredWage() + "</td></tr>" +
+                    u.getDesiredWage() + "</td></td>" +
                     u.getPlacementDate() + "</td></tr>";
 
         }

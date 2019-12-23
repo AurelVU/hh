@@ -4,6 +4,7 @@
 
 <t:wrapper>
 
+    ${button}
     <table>
         <thead class="thead-inverse">
         <tr><th>ID</th><th>О работе</th><th>Требования</th><th>Время начала работы</th><th>Время окончания работы</th><th>Оплата</th><th>ID работодателя</th> <th>Дата размещения</th></tr>

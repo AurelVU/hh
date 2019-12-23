@@ -111,4 +111,24 @@
         <servlet-name>personalarea</servlet-name>
         <url-pattern>/personalarea</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addjoboffer</servlet-name>
+        <servlet-class>app.servlets.AddJobOffer</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>addjoboffer</servlet-name>
+        <url-pattern>/addjoboffer</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addjobapplication</servlet-name>
+        <servlet-class>app.servlets.AddJobApplication</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>addjobapplication</servlet-name>
+        <url-pattern>/addjobapplication</url-pattern>
+    </servlet-mapping>
 </web-app>
